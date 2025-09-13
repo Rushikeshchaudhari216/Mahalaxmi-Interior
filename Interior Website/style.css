@@ -1,0 +1,182 @@
+/* Universal */
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body {
+          font-family: Arial, sans-serif;
+          font-size: large;
+          background: #f8f8f8;
+          color: black;
+          line-height: 1.6;
+          border: 2px solid black;
+}
+
+
+/* Header */
+header {
+          background: rgb(127, 241, 251) ;
+          color: black;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 40px;
+}
+
+.logo {
+          display: flex;
+          align-items: center;
+}
+
+.logo img.nav-icon {
+          width: 60px;
+          margin-right: 10px;
+       
+}
+
+nav a {
+          color: black;
+          text-decoration: none;
+          margin-left: 20px;
+          transition: color 0.3s;
+          font-weight: bolder;
+          padding: 10px;
+          border: 2px solid black;
+          border-radius: 10px;
+}
+
+nav a:hover {
+          color: white;
+}
+
+
+/* hero  */
+.hero {
+          position: relative;
+          background: url(icons/background.jpg) center/cover no-repeat;
+          text-align: center;
+          padding: 200px 10px;
+          border: 2px solid black;
+}
+
+.hero h2 {
+          font-size: 2.5em;
+          margin-bottom: 10px;
+}
+
+.hero p {
+          font-size: 1.2em;
+}
+
+
+/* Services */
+.services {
+          padding: 100px 20px;
+          text-align: center;
+          background:rgb(213, 235, 237);
+          border: 2px solid black;
+}
+
+.services h2 {
+          font-size: 2em;
+          margin-bottom: 30px;
+}
+
+.service-box {
+          display: inline-block;
+          width: 280px;
+          margin: 15px;
+          padding: 20px;
+          background: #f4f4f4;
+          border-radius: 8px;
+          transition: transform 0.2s;
+}
+
+.service-box:hover {
+          transform: translateY(-5px);
+}
+
+.service-box img {
+          width: 50px;
+          margin-bottom: 10px;
+}
+
+
+/*  About  */
+.about {
+          padding: 100px 20px;
+          background: #defdf8;
+          text-align: center;
+          border: 2px solid black;
+}
+
+.about h2 {
+          margin-bottom: 20px;
+          font-size: 2em;
+}
+
+
+/* Contact */
+.contact {
+          padding: 100px;
+          background: #cfebee;
+          text-align: center;
+          border: 2px solid black;
+}
+
+.contact h2 {
+          font-size: 2em;
+          margin-bottom: 20px;
+}
+
+.contact-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 15px;
+}
+
+.contact-item img {
+          width: 25px;
+          margin-right: 10px;
+}
+
+.contact-form {
+          max-width: 400px;
+          margin: 20px auto 0;
+          display: flex;
+          flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+          margin-bottom: 15px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+}
+
+.contact-form button {
+          padding: 10px;
+          border: none;
+          background: #333;
+          color: white;
+          cursor: pointer;
+          border-radius: 4px;
+          transition: background 0.3s;
+}
+
+.contact-form button:hover {
+          background: #f4a261;
+}
+
+
+/* Footer */
+footer {
+          background: #333;
+          color: #fff;
+          text-align: center;
+          padding: 15px;
+}
